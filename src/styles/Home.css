@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+
+
+.home {}
+
+.main {
+  background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+}
+
+.par {
+  padding: 7%;
+  font-family: 'Sniglet', cursive;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  background-color: #7bb7c9;
+  background: linear-gradient(#7bb7c9, rgb(184, 224, 210));
+  padding-bottom: 80px;
+  ;
+}
+
+
+.wdm-art {
+  margin-bottom: 20%;
+  height: 370px;
+  max-width: 100vw;
+}
+
+.wdm-contact {
+  height: 100px;
+  margin-bottom: 10%;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 10px;
+  font-family: 'Sniglet', cursive;
+  font-size: 1em;
+  color: #676767;
+  transition: border 0.5s;
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  border: solid 3px #7bb7c9;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+input:focus,
+textarea:focus {
+  border: solid 3px #77bde0;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  overflow: auto;
+}
+
+input[type="submit"] {
+  background-color: #F90;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 1.29em;
+  font-family: 'Sniglet', cursive;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e58f0e;
+
+}
+
+label {
+
+
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.formgroup,
+.formgroup-active,
+.formgroup-error {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 10.5%;
+  transition: background-image 0.7s;
+  -webkit-transition: background-image 0.7s;
+  -moz-transition: background-image 0.7s;
+  -o-transition: background-image 0.7s;
+  width: 100%;
+  padding-top: 2px;
+}
+
+#form {
+  height: 100%;
+  background-color: #98d4f3;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  padding-bottom: 90px;
+}
+
+
+
+
+
+form {
+  font-family: 'Sniglet', cursive;
+
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 40px;
+  color: white;
+
+
+
+}
