@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/logo.png';
 import art from '../assets/art.png';
 import '../styles/Home.css';
 import contact from '../assets/contact.png';

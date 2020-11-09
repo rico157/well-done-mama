@@ -8,12 +8,9 @@ import {
   ListItem,
   ListItemIcon
 } from '@material-ui/core';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
 import ListItemText from '@material-ui/core/ListItemText';
 import Divider from '@material-ui/core/Divider';
 import InboxIcon from '@material-ui/icons/Inbox';
-import MenuIcon from '@material-ui/icons/Menu';
-import CloseIcon from '@material-ui/icons/Close';
 
 export default function NavBar(props) {
   const [isOpen, setOpen] = useState(false);
