@@ -11,29 +11,37 @@
   flex-direction: column;
   align-items: center;
   height: fit-content;
+  height: 60px;
+
 }
 
 .par {
+
   padding: 7%;
   font-family: 'Sniglet', cursive;
   color: white;
-  font-size: larger;
+  font-size: 25px;
+  font-weight: 500;
   text-align: center;
   background-color: #7bb7c9;
   background: linear-gradient(#7bb7c9, rgb(184, 224, 210));
   padding-bottom: 80px;
+  background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+
   ;
 }
 
-
-.wdm-art {
-  margin-bottom: 20%;
-  height: 370px;
-  max-width: 100vw;
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
+
+
 .wdm-contact {
-  height: 100px;
+  width: 50%;
   margin-bottom: 10%;
 }
 
