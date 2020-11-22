@@ -2,17 +2,19 @@
 
 
 
-.home {}
 
 .main {
+
   background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+
+  /* background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom; 
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: fit-content;
   height: 60px;
-
+*/
 }
 
 .par {
@@ -23,12 +25,11 @@
   font-size: 25px;
   font-weight: 500;
   text-align: center;
-  background-color: #7bb7c9;
-  background: linear-gradient(#7bb7c9, rgb(184, 224, 210));
+  /* background-color: #7bb7c9;
+  background: linear-gradient(#7bb7c9, rgb(184, 224, 210)); */
   padding-bottom: 80px;
-  background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
 
-  ;
+
 }
 
 .img {
@@ -119,6 +120,7 @@ label {
 }
 
 #form {
+
   height: 100%;
   background-color: #98d4f3;
   overflow: hidden;
